@@ -23,7 +23,6 @@
 
 body {
   /* font-family: 'Cairo', sans-serif; */
-  background-color: #1f2029;
   background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat-back.svg");
   background-position: center;
   background-repeat: repeat;
@@ -850,11 +849,9 @@ html[dir="rtl"] .topServices__seeAll {
 nav.primary-navigation {
   margin: 0 auto;
   display: block;
-  /* padding: 120px 0 0 0; */
   text-align: center;
   font-size: 16px;
   justify-content: center;
-  /* margin-top: 20px; */
 }
 nav.primary-navigation ul li {
   list-style: none;
@@ -4486,7 +4483,6 @@ html [type="button"] {
   margin: 0 auto;
   max-width: 100%;
   padding: 10px 48px;
-  width: 100%;
 }
 
 .footer__contactBox {

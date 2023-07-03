@@ -4,25 +4,25 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Cairo', sans-serif;
-  font-family: 'Jost', sans-serif;
-  font-family: 'Poppins', sans-serif;
-  font-family: 'Shantell Sans', cursive;
-  font-family: 'Tajawal', sans-serif;
+  font-family: "Cairo", sans-serif;
+  font-family: "Jost", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Shantell Sans", cursive;
+  font-family: "Tajawal", sans-serif;
 }
 
 body {
   box-sizing: border-box;
-  font-family: 'Cairo', sans-serif;
-  font-family: 'Jost', sans-serif;
-  font-family: 'Poppins', sans-serif;
-  font-family: 'Shantell Sans', cursive;
-  font-family: 'Tajawal', sans-serif;
+  font-family: "Cairo", sans-serif;
+  font-family: "Jost", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Shantell Sans", cursive;
+  font-family: "Tajawal", sans-serif;
 }
 
 .container {
   position: relative;
-  width: 100%;
+  width: 100% !important;
   background-color: #fff;
   min-height: 100vh;
   overflow: hidden;
@@ -89,7 +89,6 @@ form.signup-provider-form {
   display: flex;
   flex-direction: row-reverse;
   position: relative;
-
 }
 
 .input-field i {
@@ -109,7 +108,7 @@ form.signup-provider-form {
   font-weight: 600;
   font-size: 1.1rem;
   color: #333;
-  direction:ltr !important;
+  direction: ltr !important;
   width: 80%;
 }
 
@@ -431,22 +430,20 @@ form.signup-provider-form {
   }
 }
 
-
 nav.primary-navigation {
   margin: 0 auto;
   display: block;
   padding: 120px 0 0 0;
   text-align: center;
   font-size: 16px;
-  margin-top: 20px;
   position: relative;
-    left: 45%;
-    top: -111px;
-    z-index: 7;
-    color: white;
-    margin-right: 20px;
-  }
-  nav.primary-navigation ul li {
+  left: 45%;
+  top: -111px;
+  z-index: 7;
+  color: white;
+  margin-right: 20px;
+}
+nav.primary-navigation ul li {
   list-style: none;
   margin: 0 auto;
   /* border-left: 2px solid #3ca0e7; */
@@ -455,18 +452,18 @@ nav.primary-navigation {
   position: relative;
   text-decoration: none;
   text-align: center;
-  font-family: 'Tajawal' !important;
-  }
-  nav.primary-navigation li a {
+  font-family: "Tajawal" !important;
+}
+nav.primary-navigation li a {
   color: black;
-  }
-  nav.primary-navigation li a:hover {
+}
+nav.primary-navigation li a:hover {
   color: #e0cf97;
-  }
-  nav.primary-navigation li:hover {
+}
+nav.primary-navigation li:hover {
   cursor: pointer;
-  }
-  nav.primary-navigation ul li ul {
+}
+nav.primary-navigation ul li ul {
   visibility: hidden;
   opacity: 0;
   position: absolute;
@@ -476,9 +473,9 @@ nav.primary-navigation {
   background: white;
   border: solid gray 1px;
   justify-content: center;
-  }
-  nav.primary-navigation ul li:hover > ul,
-  nav.primary-navigation ul li ul:hover {
+}
+nav.primary-navigation ul li:hover > ul,
+nav.primary-navigation ul li ul:hover {
   visibility: visible;
   opacity: 1;
   display: block;
@@ -486,53 +483,52 @@ nav.primary-navigation {
   text-align: left;
   padding-top: 20px;
   box-shadow: 0px 3px 5px -1px #ccc;
-  }
-  nav.primary-navigation ul li ul li {
+}
+nav.primary-navigation ul li ul li {
   clear: both;
   width: 100%;
   text-align: left;
   margin-bottom: 20px;
   border-style: none;
   text-align: center;
-  }
-  nav.primary-navigation ul li ul li a:hover {
+}
+nav.primary-navigation ul li ul li a:hover {
   transition: all 0.3s ease;
-  }
-  
-  nav.primary-navigation  a {
+}
+
+nav.primary-navigation a {
   text-decoration: none !important;
   font-size: 16px;
   /* font-family: 'sans-serif' !important; */
   font-weight: 600;
-  }
-
-  a:hover {
-    color: #e0cf97;
-    }
-
-.special-field {
-    display: flex !important;
-    justify-content: center;
-    height: 45px;
-    width: 60% !important;
-    outline: none;
 }
 
-@media(max-width: 869px){
+a:hover {
+  color: #e0cf97;
+}
 
+.special-field {
+  display: flex !important;
+  justify-content: center;
+  height: 45px;
+  width: 60% !important;
+  outline: none;
+}
+
+@media (max-width: 869px) {
 }
 
 .special-field select {
-    border: none;
-    background-color: #f0f0f0;
-    width: 90% !important;
-    font-size: 20px;
-    direction: ltr;
-    outline: none;
-    font-weight: bold;
+  border: none;
+  background-color: #f0f0f0;
+  width: 90% !important;
+  font-size: 20px;
+  direction: ltr;
+  outline: none;
+  font-weight: bold;
 }
 
-.input-field input  {
-    direction: rtl;
-    padding-right: 15px;
+.input-field input {
+  direction: rtl;
+  padding-right: 15px;
 }

@@ -1,167 +1,189 @@
 <!DOCTYPE html>
 <html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./login-ltr.css" />
 
-    <link rel="stylesheet" href="./login-ltr.css">
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900">
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600&amp;display=swap"
-        rel="stylesheet">
-    <link href="/applications/landing/css/chunk-vendors.ef414f62.css" rel="stylesheet">
-    <link href="/applications/landing/css/app.ad7263f8.css" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&family=Jost:wght@100;300;400;500;600;700;800&family=Poppins:wght@400;500;600;700&family=Shantell+Sans:wght@300;400;500;600;700&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
-        rel="stylesheet">
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="/applications/landing/css/chunk-vendors.ef414f62.css"
+      rel="stylesheet"
+    />
+    <link href="/applications/landing/css/app.ad7263f8.css" rel="stylesheet" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&family=Jost:wght@100;300;400;500;600;700;800&family=Poppins:wght@400;500;600;700&family=Shantell+Sans:wght@300;400;500;600;700&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
 
     <title></title>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
 
+  <body>
+    <div class="container sm:px-4">
+      <nav role="navigation" class="primary-navigation">
+        <ul>
+          <li>
+            <a href="#"
+              >Language
+              <i
+                style="width: 18px; height: 18px"
+                class="fa-solid fa-globe"
+              ></i>
+            </a>
+            <ul class="relative">
+              <li>
+                <a style="margin: 20px; display: block" href="">العربية</a>
 
-</head>
-
-<body>
-    <div class="container mx-auto sm:px-4">
-        
-        <nav role="navigation" class="primary-navigation">
-            <ul>
-                <li>
-                    <a href="#">Language
-                        <i style="width: 18px;height:18px" class="fa-solid fa-globe"></i>
-                    </a>
-                    <ul class="relative">
-                        
-                            <li>
-                                <a style="margin: 20px;display: block;" href="">العربية</a>
-
-                                <a style="margin: 20px;display: block;" href="">English</a>
-                            </li>
-                    </ul>
-                </li>
+                <a style="margin: 20px; display: block" href="">English</a>
+              </li>
             </ul>
-        </nav>
-        
-        <div class="forms-container">
-            <div class="signup-provider">
-                <form action="#" class="signup-provider-form">
-                    <h2 class="title">LogIn as a Service Applier</h2>
-                    <div class="input-field">
-                        <i class="fas fa-user"></i>
-                        <input type="text" placeholder="Username" />
-                    </div>
-                    <div class="input-field">
-                        <i class="fas fa-lock"></i>
-                        <input type="email" placeholder="Email" />
-                    </div>
-                    
-                    <div class="input-field">
-                        <i class="fas fa-lock"></i>
-                        <input type="password" placeholder="Password" />
-                    </div>
-                    <div class="input-field">
-                        <i class="fas fa-lock"></i>
-                        <input type="password" placeholder="Password Confirmation" />
-                    </div>
-                    <div style="width: 100%" class="input-field special-field">
-                        <select aria-placeholder="Type" class="w-full" name="" id="">
-                            <option value="">الكيان</option>
-                            <option value="">فرد</option>
-                            <option value="">مؤسسة / شركة</option>
-                            <option value="">قطاع حكومى</option>
-                            <option value="">تعليم / تدريب</option>
-                        </select>
-                    </div>
-                    <input type="submit" value="Create Account" class="inline-block align-middle text-center select-none border font-normal whitespace-no-wrap rounded py-1 px-3 leading-normal no-underline solid" style="margin: 20px 0;" />
-                    <div class="social-media">
-                        <a href="#" class="social-icon">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a href="#" class="social-icon">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a href="#" class="social-icon">
-                            <i class="fab fa-google"></i>
-                        </a>
-                        <a href="#" class="social-icon">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                    </div>
-                </form>
-                <form action="#" class="sign-up-form">
-                    <h2 class="title">LogIn as a Benefit</h2>
-                    <div class="input-field">
-                        <i class="fas fa-user"></i>
-                        <input type="text" placeholder="Username" />
-                    </div>
-                    <div class="input-field">
-                        <i class="fas fa-envelope"></i>
-                        <input type="email" placeholder="Email" />
-                    </div>
-                    <div class="input-field">
-                        <i class="fas fa-lock"></i>
-                        <input type="password" placeholder="Password" />
-                    </div>
-                    <div class="input-field">
-                        <i class="fas fa-lock"></i>
-                        <input type="password" placeholder="Password Confirmation" />
-                    </div>
-                    <input type="submit" class="inline-block align-middle text-center select-none border font-normal whitespace-no-wrap rounded py-1 px-3 leading-normal no-underline solid" style="margin: 20px 0;" value="Create Account" />
-                    <div class="social-media">
-                        <a href="#" class="social-icon">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a href="#" class="social-icon">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a href="#" class="social-icon">
-                            <i class="fab fa-google"></i>
-                        </a>
-                        <a href="#" class="social-icon">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                    </div>
-                </form>
-            </div>
-        </div>
+          </li>
+        </ul>
+      </nav>
 
-        <div class="panels-container">
-            <div class="panel left-panel">
-                <div class="content">
-                    <h3>New Here ?</h3>
-                    <p style="font-size: 20px;margin: 20px 0;">
-                        To LogIn as a Benefit Account
-                    </p>
-                    <button class="inline-block align-middle text-center select-none border font-normal whitespace-no-wrap rounded py-1 px-3 leading-normal no-underline transparent one" id="sign-up-btn">
-                        Click Here
-                    </button>
-                </div>
-                <img src="img/log.svg" class="image" alt="" />
+      <div class="forms-container">
+        <div class="signup-provider">
+          <form action="#" class="signup-provider-form">
+            <h2 class="title">LogIn as a Service Applier</h2>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Username" />
             </div>
-            <div class="panel right-panel">
-                <div class="content"> 
-                    <h3>One of Us ?</h3>
-                    <p style="font-size: 20px;margin: 20px 0;">
-                        To LogIn as a Service Applier
-                    </p>
-                    <button class="inline-block align-middle text-center select-none border font-normal whitespace-no-wrap rounded py-1 px-3 leading-normal no-underline transparent" id="sign-in-btn">
-                        Click Here
-                    </button>
-                </div>
-                <img src="img/register.svg" class="image" alt="" />
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="email" placeholder="Email" />
             </div>
+
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Password" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Password Confirmation" />
+            </div>
+            <div style="width: 100%" class="input-field special-field">
+              <select aria-placeholder="Type" class="w-full" name="" id="">
+                <option value="">الكيان</option>
+                <option value="">فرد</option>
+                <option value="">مؤسسة / شركة</option>
+                <option value="">قطاع حكومى</option>
+                <option value="">تعليم / تدريب</option>
+              </select>
+            </div>
+            <input
+              type="submit"
+              value="Create Account"
+              class="btn solid"
+              style="margin: 20px 0"
+            />
+            <div class="social-media">
+              <a href="#" class="social-icon">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-google"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </form>
+          <form action="#" class="sign-up-form">
+            <h2 class="title">LogIn as a Benefit</h2>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Username" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-envelope"></i>
+              <input type="email" placeholder="Email" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Password" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Password Confirmation" />
+            </div>
+            <input
+              type="submit"
+              class="btn solid"
+              style="margin: 20px 0"
+              value="Create Account"
+            />
+            <div class="social-media">
+              <a href="#" class="social-icon">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-google"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </form>
         </div>
+      </div>
+
+      <div class="panels-container">
+        <div class="panel left-panel">
+          <div class="content">
+            <h3>New Here ?</h3>
+            <p style="font-size: 20px; margin: 20px 0">
+              To LogIn as a Benefit Account
+            </p>
+            <button class="btn transparent one" id="sign-up-btn">
+              Click Here
+            </button>
+          </div>
+          <img src="img/log.svg" class="image" alt="" />
+        </div>
+        <div class="panel right-panel">
+          <div class="content">
+            <h3>One of Us ?</h3>
+            <p style="font-size: 20px; margin: 20px 0">
+              To LogIn as a Service Applier
+            </p>
+            <button
+              class="inline-block align-middle text-center select-none border font-normal whitespace-no-wrap rounded-full py-1 px-3 leading-normal no-underline transparent"
+              id="sign-in-btn"
+            >
+              Click Here
+            </button>
+          </div>
+          <img src="img/register.svg" class="image" alt="" />
+        </div>
+      </div>
     </div>
 
-    <script src='./register.js'></script>
-</body>
-
+    <script src="./register.js"></script>
+  </body>
 </html>
