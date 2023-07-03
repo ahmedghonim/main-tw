@@ -1,0 +1,1337 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+
+    <script
+      src="https://kit.fontawesome.com/164ea36700.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- ===== Link Swiper's CSS ===== -->
+
+    <!-- ===== Fontawesome CDN Link ===== -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./swiper-bundle.min.css" />
+
+    <!-- Bootstrap JavaScript -->
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header id="menu_hamburger" class="header header--beige mb-5">
+      <div class="header__container">
+        <div class="header__logo">
+          <a href="/" class="header__logoLink">
+            <img
+              alt="najiz"
+              class="header__logoImg"
+              src="./imgs/Orange Business Logo.png"
+            />
+          </a>
+        </div>
+        <nav class="header__menuWrapper">
+          <div class="header__menu">
+            <a href="#apply" class="header__menuItem"> الخدمات الالكترونية </a>
+            <a href="#economy" class="header__menuItem">
+              خدمات الاعمال والتجارة
+            </a>
+            <a href="" class="header__menuItem"> دليل المرخصين </a>
+            <a href="#asking" class="header__menuItem"> الأسئلة المتكررة </a>
+            <a href="" class="header__menuItem items-center">
+              الدخول
+              <i class="fa-solid fa-lock"></i>
+            </a>
+
+            <nav role="navigation" class="primary-navigation">
+              <ul style="padding-left: 0">
+                <li>
+                  <a class="items-center lang-link" href="#"
+                    >اللغة
+                    <i
+                      style="width: 16px; height: 16px"
+                      class="fa-solid fa-globe"
+                    ></i>
+                  </a>
+                  <ul class="relative">
+                    <li class="d-grid items-end">
+                      <a class="m-6 block" href="" target="_blank">العربية</a>
+
+                      <a class="m-6 block" href="" target="_blank">English</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </nav>
+
+        <div class="header__right">
+          <div class="header__logo">
+            <a href="https://www.moj.gov.sa/" class="header__logoLink">
+              <!-- <img width="110" alt="" class="header__logoImg"
+                            src="https://najizcdn.moj.gov.sa/n2/Images/moj-logo.svg?v=32"> -->
+              <img
+                alt=""
+                width="130"
+                class="header__logoImg header__visionLogo"
+                src="https://najizcdn.moj.gov.sa/n2/Images/vision2030.svg?v=32"
+              />
+            </a>
+          </div>
+          <div
+            onclick="click_hamburger()"
+            id="div_spans"
+            class="header__hamburger"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="sections sections__beta" style="min-height: 100vh">
+      <div>
+        <div
+          data-app="true"
+          class="v-application v-application--is-rtl theme--light"
+          id="app"
+        >
+          <div class="v-application--wrap">
+            <main class="v-main" style="padding: 0px" data-booted="true">
+              <div class="v-main__wrap">
+                <!---->
+                <div style="width: 100% !important">
+                  <div class="bBagt1qqsrpdWkUolvPM">
+                    <div
+                      class="container mx-auto sm:px-4 QFu8QuVbxwhKSWud6oEW flex align-center justify-space-between"
+                    >
+                      <div class="types d-grid" style="gap: 50px">
+                        <div class="tWKtcRVVycwaSQFjCIKa m-6">
+                          <p class="section-title">إنشاء حساب مقدم خدمة</p>
+                          <a href="./login-rtl.html" target="_blank">
+                            <button
+                              type="button"
+                              class="v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--large secondary AoFPg11vdEkwzAYRnf4N"
+                              id="rf_home_intro_loginBtn"
+                            >
+                              <span class="v-btn__content">
+                                إنشاء
+
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon fa-solid fa-arrow-left notranslate mdi mdi-arrow-left theme--light rIbuesoOxiIcl36nKatN mr-5 icon-eng"
+                                  style="font-size: 16px"
+                                >
+                                </i>
+                              </span>
+                            </button>
+                          </a>
+                        </div>
+                        <div class="tWKtcRVVycwaSQFjCIKa m-6">
+                          <p class="section-title">إنشاء حساب مستفيد</p>
+
+                          <a
+                            id="anchLink"
+                            href="./login-rtl.html"
+                            target="_blank"
+                          >
+                            <button
+                              type="button"
+                              class="v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--large secondary AoFPg11vdEkwzAYRnf4N"
+                              id="rf_home_intro_loginBtn"
+                            >
+                              <span class="v-btn__content">
+                                إنشاء
+
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon fa-solid fa-arrow-left notranslate mdi mdi-arrow-left theme--light rIbuesoOxiIcl36nKatN mr-5 icon-eng"
+                                  style="font-size: 16px"
+                                >
+                                </i>
+                              </span>
+                            </button>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="logo_moving">
+                        <div class="animated_logo d-grid justify-center">
+                          <div>
+                            <img
+                              class="logo_first drop-in"
+                              width="200"
+                              height="105"
+                              src="./imgs/Orange Business Logo.png"
+                              alt=""
+                            />
+                          </div>
+                          <section class="">
+                            <div class="content drop-in-2 animated">
+                              <p>HR-Line</p>
+                              <p>HR-Line</p>
+                            </div>
+                          </section>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </main>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section
+      id="economy"
+      style="background-color: #f7fbfb"
+      class="main-services"
+    >
+      <div class="serv">
+        <div class="serv-header">
+          <h2 style="margin-bottom: 16px; font-size: 46px">
+            خدمات الأعمال و التجارة
+          </h2>
+          <p style="font-size: 26px; margin-bottom: 16px">
+            تمكنك هذه الخدمة من التحقق من الوثائق الصادرة من وزارة العدل
+            إلكترونياً
+          </p>
+          <p c style="color: #e0cf97; margin-bottom: 16px; font-size: 26px">
+            أريد التحقق من
+          </p>
+        </div>
+
+        <div class="container mx-auto sm:px-4">
+          <div class="flex flex-wrap servs my-5">
+            <div
+              class="md:w-1/3 pr-4 pl-4 lg:w-1/3 pr-4 pl-4 xl:w-1/3 pr-4 pl-4 w-full flex justify-center father-link"
+            >
+              <a class="serv-link" href="./vehicle.html" target="_blank">
+                <section
+                  id=""
+                  class="cards-section check-cards"
+                  style="padding: 15px !important"
+                >
+                  <div
+                    class="container mx-auto sm:px-4 d-grid text-center justify-center align-center"
+                  >
+                    <div class="full-svg">
+                      <i
+                        class="fa-solid fa-car-rear"
+                        style="color: #5eb9b8"
+                      ></i>
+                    </div>
+                  </div>
+                </section>
+                <div class="name-serv">
+                  <div>الشحن والتوصيل</div>
+                  <i class="fa-solid fa-arrow-left link-svg"></i>
+                </div>
+              </a>
+            </div>
+            <div
+              class="md:w-1/3 pr-4 pl-4 lg:w-1/3 pr-4 pl-4 xl:w-1/3 pr-4 pl-4 w-full flex justify-center father-link special-serv"
+            >
+              <a class="serv-link" href="">
+                <section
+                  id=""
+                  class="cards-section check-cards"
+                  style="padding: 15px !important"
+                >
+                  <div
+                    class="container mx-auto sm:px-4 d-grid justify-center align-center"
+                  >
+                    <!-- <div class="JVnnjDvvOZUehjMFwAl4">
+                                        <div class="container mx-auto sm:px-4 H_QQyPlggfUUcUdcNK1z">
+                                            <div class="flex flex-wrap ">
+                                                <div
+                                                    class="sm:w-1/3 pr-4 pl-4 lg:w-1/3 pr-4 pl-4 xl:w-1/3 pr-4 pl-4 w-full scrollAnimation scrollAnimation--active">
+                                                    <div class="v-card v-sheet theme--light rlzlLPruBEWJVYmVlK4R OyAPth8zn0zbnbf_FbzM eLdpcikOIco5yp0CLeRl"
+                                                        id="rf_home_eServices_card_724e30f2-a253-4f91-b30b-9afa3eaacd33">
+                                                        <div class="J_puyITl6wwikKajcucZ flex pb-0">
+                                                            
+                                                            <div
+                                                                class="rGzyRvtsQVUAN4T20f1Y GxHNWj9RBW4gqWP3tUnV flex">
+                                                                <p></p>
+                                                                <p class="m"></p>
+                                                            </div>
+                                                            <div class="rGzyRvtsQVUAN4T20f1Y mx-0">
+                                                                <p></p>
+                                                                <p class="m"></p>
+                                                            </div>
+                                                        </div>
+                                                    
+                                                        <div
+                                                            class="v-card__title N18VRzk8zU0V6vAZFeWm pb-0 text-center">
+                                                            <div class="icon-numbers_98193 ml-2 icomoon-icon"></div>
+                                                        </div>
+                                                        <div
+                                                            class="v-card_title aq5HDji_dHM65qtiK5k6 o5nz3bL9hBgyGmMC7ce text-center">
+                                                        </div>
+                                                        <div
+                                                            class="v-card__text m18lwkE2_Y_QM442Veil xf7DejPVdPEbRM6olBtR text-center">
+                                                            خدمة تتيح للمستفيد المنفذ ضده بطلب إصدار فاتورة السداد
+                                                            للمطالبة حتى يتمكن من استكمال
+                                                            عملية سداد ما عليه من مستحقات مالية
+                                                        </div>
+                                                        <div class="v-card__actions O0mkxYHBBU8YHs1t4Mqb ">
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> -->
+                    <div class="full-svg text-center">
+                      <i
+                        class="fa-solid fa-house-chimney"
+                        style="color: #5eb9b8"
+                      ></i>
+                    </div>
+                  </div>
+                </section>
+                <div class="name-serv">
+                  <div style="text-align: center">وسيط عقاري</div>
+                  <i class="fa-solid fa-arrow-left link-svg"></i>
+                </div>
+              </a>
+            </div>
+            <div
+              id="father-div"
+              class="md:w-1/3 pr-4 pl-4 lg:w-1/3 pr-4 pl-4 xl:w-1/3 pr-4 pl-4 w-full flex justify-center father-link"
+            >
+              <a class="serv-link" href="">
+                <section
+                  id=""
+                  class="cards-section check-cards"
+                  style="padding: 15px !important"
+                >
+                  <div
+                    class="container mx-auto sm:px-4 d-grid justify-center align-center"
+                  >
+                    <!-- <div class="JVnnjDvvOZUehjMFwAl4">
+                                        <div class="container mx-auto sm:px-4 H_QQyPlggfUUcUdcNK1z">
+                                            <div class="flex flex-wrap ">
+                                                <div
+                                                    class="sm:w-1/3 pr-4 pl-4 lg:w-1/3 pr-4 pl-4 xl:w-1/3 pr-4 pl-4 w-full scrollAnimation scrollAnimation--active">
+                                                    <div class="v-card v-sheet theme--light rlzlLPruBEWJVYmVlK4R OyAPth8zn0zbnbf_FbzM eLdpcikOIco5yp0CLeRl"
+                                                        id="rf_home_eServices_card_724e30f2-a253-4f91-b30b-9afa3eaacd33">
+                                                        <div class="J_puyITl6wwikKajcucZ flex pb-0">
+
+                                                            <div
+                                                                class="rGzyRvtsQVUAN4T20f1Y GxHNWj9RBW4gqWP3tUnV flex">
+                                                                <p></p>
+                                                                <p class="m"></p>
+                                                            </div>
+                                                            <div class="rGzyRvtsQVUAN4T20f1Y mx-0">
+                                                                <p></p>
+                                                                <p class="m"></p>
+                                                            </div>
+                                                        </div>
+
+                                                        <div
+                                                            class="v-card__title N18VRzk8zU0V6vAZFeWm pb-0 text-center">
+                                                            <div class="icon-numbers_98193 ml-2 icomoon-icon"></div>
+                                                        </div>
+                                                        <div
+                                                            class="v-card_title aq5HDji_dHM65qtiK5k6 o5nz3bL9hBgyGmMC7ce text-center">
+                                                        </div>
+                                                        <div
+                                                            class="v-card__text m18lwkE2_Y_QM442Veil xf7DejPVdPEbRM6olBtR text-center">
+                                                            خدمة تتيح للمستفيد المنفذ ضده بطلب إصدار فاتورة السداد
+                                                            للمطالبة حتى يتمكن من استكمال
+                                                            عملية سداد ما عليه من مستحقات مالية
+                                                        </div>
+                                                        <div class="v-card__actions O0mkxYHBBU8YHs1t4Mqb ">
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> -->
+                    <div class="full-svg text-center">
+                      <i
+                        class="fa-solid fa-chalkboard-user"
+                        style="color: #5eb9b8"
+                      ></i>
+                    </div>
+                  </div>
+                </section>
+                <div class="name-serv">
+                  <div>التدريب / التعليم</div>
+                  <i class="fa-solid fa-arrow-left link-svg"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <a href="./economy.html" target="_blank" class="explore-link">
+          <span>
+            تصفح خدمات الأعمال والتجارة
+            <i class="fa-solid fa-arrow-left link-svg"></i>
+          </span>
+        </a>
+      </div>
+    </section>
+
+    <section id="apply" class="cards-section">
+      <div class="container mx-auto sm:px-4">
+        <div class="first-parent">
+          <h2 class="px-5">الخدمات الالكترونية</h2>
+          <div class="cards-list">
+            <button
+              type="button"
+              class="list-button my-2"
+              id="rf_home_eServices_category_77e5a372-685e-451c-a386-20ef353501bf"
+              style="
+                background-color: rgb(54, 197, 186);
+                border-color: rgb(54, 197, 186);
+              "
+            >
+              <span class="list-content">
+                <i class="fa-solid fa-plus ms-2"></i>
+                التنفيذ
+              </span>
+            </button>
+
+            <button
+              type="button"
+              class="list-button my-2"
+              id="rf_home_eServices_category_44ea7fd3-1f73-4be2-b956-7d92f7d1cb35"
+              style="color: rgb(54, 197, 186)"
+            >
+              <span class="list-content">
+                <i class="fa-solid fa-plus ms-2"></i>
+                التنفيذ
+              </span>
+            </button>
+
+            <button
+              type="button"
+              class="list-button my-2"
+              id="rf_home_eServices_category_123a4ea4-1ee8-4b7a-a250-8c6d94de986f"
+              style="color: rgb(54, 197, 186)"
+            >
+              <span class="list-content">
+                <i class="fa-solid fa-plus ms-2"></i>
+                التنفيذ
+              </span>
+            </button>
+            <button
+              type="button"
+              class="list-button my-2"
+              id="rf_home_eServices_category_c4beabfb-fd1c-44c3-88c0-a0d8e14691cd"
+              style="color: rgb(54, 197, 186)"
+            >
+              <span class="list-content">
+                <i class="fa-solid fa-plus ms-2"></i>
+                التنفيذ
+              </span>
+            </button>
+            <button
+              type="button"
+              class="list-button my-2"
+              id="rf_home_eServices_category_921970f7-8222-432e-945a-b8be40b25640"
+              style="color: rgb(54, 197, 186)"
+            >
+              <span class="list-content">
+                <i class="fa-solid fa-plus ms-2"></i>
+                التنفيذ
+              </span>
+            </button>
+            <button
+              type="button"
+              class="list-button my-2"
+              id="rf_home_eServices_category_935e83dc-5902-4641-83f0-bffffd411fd7"
+              style="color: rgb(54, 197, 186)"
+            >
+              <span class="list-content">
+                <i class="fa-solid fa-plus ms-2"></i>
+                التنفيذ
+              </span>
+            </button>
+            <button
+              type="button"
+              class="list-button my-2"
+              id="rf_home_eServices_category_ced3a799-d06b-4b39-9473-c711997e10d9"
+              style="color: rgb(54, 197, 186)"
+            >
+              <span class="list-content">
+                <i class="fa-solid fa-plus ms-2"></i>
+                التنفيذ
+              </span>
+            </button>
+            <button
+              type="button"
+              class="list-button my-2"
+              id="rf_home_eServices_category_d33bd365-9f7e-4ae2-b846-df6673c4cb24"
+              style="color: rgb(54, 197, 186)"
+            >
+              <span class="list-content">
+                <i class="fa-solid fa-plus ms-2"></i>
+                التنفيذ
+              </span>
+            </button>
+            <button
+              type="button"
+              class="list-button my-2"
+              id="rf_home_eServices_category_1f1fc124-6f1f-42fe-9128-e2d94bac14fb"
+              style="color: rgb(54, 197, 186)"
+            >
+              <span class="list-content">
+                <i class="fa-solid fa-plus ms-2"></i>
+                التنفيذ
+              </span>
+            </button>
+            <button
+              type="button"
+              class="list-button my-2"
+              id="rf_home_eServices_category_7fc360d2-f372-4923-905f-f136093155c6"
+              style="color: rgb(54, 197, 186)"
+            >
+              <span class="list-content">
+                <i class="fa-solid fa-plus ms-2"></i>
+                التنفيذ
+              </span>
+            </button>
+            <button
+              type="button"
+              class="list-button my-2"
+              id="rf_home_eServices_category_7fc360d2-f372-4923-905f-f136093155c6"
+              style="color: rgb(54, 197, 186)"
+            >
+              <span class="list-content">
+                <i class="fa-solid fa-plus ms-2"></i>
+                التنفيذ
+              </span>
+            </button>
+            <button
+              type="button"
+              class="list-button my-2"
+              id="rf_home_eServices_category_7fc360d2-f372-4923-905f-f136093155c6"
+              style="color: rgb(54, 197, 186)"
+            >
+              <span class="list-content">
+                <i class="fa-solid fa-plus ms-2"></i>
+                التنفيذ
+              </span>
+            </button>
+            <button
+              type="button"
+              class="list-button my-2"
+              id="rf_home_eServices_category_7fc360d2-f372-4923-905f-f136093155c6"
+              style="color: rgb(54, 197, 186)"
+            >
+              <span class="list-content">
+                <i class="fa-solid fa-plus ms-2"></i>
+                التنفيذ
+              </span>
+            </button>
+            <button
+              type="button"
+              class="list-button my-2"
+              id="rf_home_eServices_category_7fc360d2-f372-4923-905f-f136093155c6"
+              style="color: rgb(54, 197, 186)"
+            >
+              <span class="list-content">
+                <i class="fa-solid fa-plus ms-2"></i>
+                التنفيذ
+              </span>
+            </button>
+            <button
+              type="button"
+              class="list-button my-2"
+              id="rf_home_eServices_category_7fc360d2-f372-4923-905f-f136093155c6"
+              style="color: rgb(54, 197, 186)"
+            >
+              <span class="list-content">
+                <i class="fa-solid fa-plus ms-2"></i>
+                التنفيذ
+              </span>
+            </button>
+            <button
+              type="button"
+              class="list-button my-2"
+              id="rf_home_eServices_category_7fc360d2-f372-4923-905f-f136093155c6"
+              style="color: rgb(54, 197, 186)"
+            >
+              <span class="list-content">
+                <i class="fa-solid fa-plus ms-2"></i>
+                التنفيذ
+              </span>
+            </button>
+            <button
+              type="button"
+              class="list-button my-2"
+              id="rf_home_eServices_category_7fc360d2-f372-4923-905f-f136093155c6"
+              style="color: rgb(54, 197, 186)"
+            >
+              <span class="list-content">
+                <i class="fa-solid fa-plus ms-2"></i>
+                التنفيذ
+              </span>
+            </button>
+            <button
+              type="button"
+              class="list-button my-2"
+              id="rf_home_eServices_category_7fc360d2-f372-4923-905f-f136093155c6"
+              style="color: rgb(54, 197, 186)"
+            >
+              <span class="list-content">
+                <i class="fa-solid fa-plus ms-2"></i>
+                التنفيذ
+              </span>
+            </button>
+            <button
+              type="button"
+              class="list-button my-2"
+              id="rf_home_eServices_category_7fc360d2-f372-4923-905f-f136093155c6"
+              style="color: rgb(54, 197, 186)"
+            >
+              <span class="list-content">
+                <i class="fa-solid fa-plus ms-2"></i>
+                التنفيذ
+              </span>
+            </button>
+            <button
+              type="button"
+              class="list-button my-2"
+              id="rf_home_eServices_category_7fc360d2-f372-4923-905f-f136093155c6"
+              style="color: rgb(54, 197, 186)"
+            >
+              <span class="list-content">
+                <i class="fa-solid fa-plus ms-2"></i>
+                التنفيذ
+              </span>
+            </button>
+            <button
+              type="button"
+              class="list-button my-2"
+              id="rf_home_eServices_category_7fc360d2-f372-4923-905f-f136093155c6"
+              style="color: rgb(54, 197, 186)"
+            >
+              <span class="list-content">
+                <i class="fa-solid fa-plus ms-2"></i>
+                التنفيذ
+              </span>
+            </button>
+          </div>
+        </div>
+        <div class="JVnnjDvvOZUehjMFwAl4">
+          <div class="container mx-auto sm:px-4 H_QQyPlggfUUcUdcNK1z">
+            <div class="flex flex-wrap">
+              <div
+                class="sm:w-1/3 pr-4 pl-4 lg:w-1/3 pr-4 pl-4 xl:w-1/3 pr-4 pl-4 w-full scrollAnimation scrollAnimation--active"
+              >
+                <div
+                  class="v-card v-sheet theme--light rlzlLPruBEWJVYmVlK4R OyAPth8zn0zbnbf_FbzM eLdpcikOIco5yp0CLeRl"
+                  id="rf_home_eServices_card_724e30f2-a253-4f91-b30b-9afa3eaacd33"
+                >
+                  <div class="J_puyITl6wwikKajcucZ flex pb-0">
+                    <!---->
+                    <div class="rGzyRvtsQVUAN4T20f1Y GxHNWj9RBW4gqWP3tUnV flex">
+                      معدلة
+                    </div>
+                    <div class="rGzyRvtsQVUAN4T20f1Y mx-0">الاكثر استخداما</div>
+                  </div>
+                  <!---->
+                  <div class="v-card__title N18VRzk8zU0V6vAZFeWm pb-0">
+                    <div class="icon-numbers_98193 ml-2 icomoon-icon"></div>
+                    الخدمات الانسانية
+                  </div>
+                  <div
+                    class="v-card_title aq5HDji_dHM65qtiK5k6 o5nz3bL9hBgyGmMC7ce text-center my-3"
+                  >
+                    محامون
+                  </div>
+                  <div
+                    class="v-card__text m18lwkE2_Y_QM442Veil xf7DejPVdPEbRM6olBtR"
+                  >
+                    خدمة تتيح للمستفيد المنفذ ضده بطلب إصدار فاتورة السداد
+                    للمطالبة حتى يتمكن من استكمال عملية سداد ما عليه من مستحقات
+                    مالية
+                  </div>
+                  <div
+                    class="v-card__actions O0mkxYHBBU8YHs1t4Mqb card-services"
+                  >
+                    <a
+                      href="/applications/landing/e-services/724e30f2-a253-4f91-b30b-9afa3eaacd33"
+                      class="v-btn v-btn--router v-btn--text theme--light v-size--large secondary--text HC2X4qrMYfwM_w0672aq EQG9p4b7ThE86KX8a29f"
+                      id="rf_home_eServices_cardAction_724e30f2-a253-4f91-b30b-9afa3eaacd33"
+                      aria-label=""
+                    >
+                      <span class="v-btn__content">
+                        شرح الخدمة
+
+                        <i
+                          aria-hidden="true"
+                          class="v-icon notranslate mdi mdi-arrow-left theme--light z2w6OYphoF4xMS9um5wd mr-3 fa-solid fa-arrow-left"
+                          style="font-size: 16px"
+                        >
+                        </i>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="sm:w-1/3 pr-4 pl-4 lg:w-1/3 pr-4 pl-4 xl:w-1/3 pr-4 pl-4 w-full scrollAnimation scrollAnimation--active"
+              >
+                <div
+                  class="v-card v-sheet theme--light rlzlLPruBEWJVYmVlK4R OyAPth8zn0zbnbf_FbzM eLdpcikOIco5yp0CLeRl card-box"
+                  id="rf_home_eServices_card_739b4d6e-c736-4d27-ba3e-a6d17dd561aa"
+                >
+                  <div class="J_puyITl6wwikKajcucZ flex pb-0">
+                    <!---->
+                    <div
+                      class="rGzyRvtsQVUAN4T20f1Y GxHNWj9RBW4gqWP3tUnV flex mx-4"
+                    >
+                      معدلة
+                    </div>
+                    <div class="rGzyRvtsQVUAN4T20f1Y mx-0">الاكثر استخداما</div>
+                  </div>
+                  <!---->
+                  <div class="v-card__title N18VRzk8zU0V6vAZFeWm pb-0">
+                    <div class="icon-numbers_98193 ml-2 icomoon-icon"></div>
+                    الخدمات الانسانية
+                  </div>
+                  <div
+                    class="v-card_title aq5HDji_dHM65qtiK5k6 o5nz3bL9hBgyGmMC7ce text-center my-3"
+                  >
+                    موثق
+                  </div>
+                  <div
+                    class="v-card__text m18lwkE2_Y_QM442Veil xf7DejPVdPEbRM6olBtR"
+                  >
+                    خدمة تتيح للمستفيد طالب التنفيذ من طلب إصدار أمر الحضانة
+                    لضمان حقه الشرعي
+                  </div>
+                  <div
+                    class="v-card__actions O0mkxYHBBU8YHs1t4Mqb card-services"
+                  >
+                    <a
+                      href="/applications/landing/e-services/739b4d6e-c736-4d27-ba3e-a6d17dd561aa"
+                      class="v-btn v-btn--router v-btn--text theme--light v-size--large secondary--text HC2X4qrMYfwM_w0672aq EQG9p4b7ThE86KX8a29f"
+                      id="rf_home_eServices_cardAction_739b4d6e-c736-4d27-ba3e-a6d17dd561aa"
+                      aria-label=""
+                      ><span class="v-btn__content">
+                        شرح الخدمة
+
+                        <i
+                          aria-hidden="true"
+                          class="v-icon notranslate mdi mdi-arrow-left theme--light z2w6OYphoF4xMS9um5wd mr-3 fa-solid fa-arrow-left"
+                          style="font-size: 16px"
+                        >
+                        </i>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="sm:w-1/3 pr-4 pl-4 lg:w-1/3 pr-4 pl-4 xl:w-1/3 pr-4 pl-4 w-full scrollAnimation scrollAnimation--active"
+              >
+                <div
+                  class="v-card v-sheet theme--light rlzlLPruBEWJVYmVlK4R OyAPth8zn0zbnbf_FbzM eLdpcikOIco5yp0CLeRl"
+                  id="rf_home_eServices_card_1c719954-3463-4754-85e1-1b319b937b86"
+                >
+                  <div class="J_puyITl6wwikKajcucZ flex pb-0">
+                    <!---->
+                    <div
+                      class="rGzyRvtsQVUAN4T20f1Y GxHNWj9RBW4gqWP3tUnV flex mx-4"
+                    >
+                      معدلة
+                    </div>
+                    <div class="rGzyRvtsQVUAN4T20f1Y mx-0">الاكثر استخداما</div>
+                  </div>
+                  <!---->
+                  <div class="v-card__title N18VRzk8zU0V6vAZFeWm pb-0">
+                    <div class="icon-numbers_98193 ml-2 icomoon-icon"></div>
+                    الخدمات الانسانية
+                  </div>
+                  <div
+                    class="v-card_title aq5HDji_dHM65qtiK5k6 o5nz3bL9hBgyGmMC7ce text-center my-3"
+                  >
+                    مأذون أنكحة
+                  </div>
+                  <div
+                    class="v-card__text m18lwkE2_Y_QM442Veil xf7DejPVdPEbRM6olBtR"
+                  >
+                    خدمة تتيح للمستفيد تقديم طلب تنفيذ السند التنفيذي سواء كان
+                    مبلغًا ماليًا أو حكمًا قضائيًا أو قرار أو محضرًا في مسائل
+                    الأحوال الشخصية
+                  </div>
+                  <div
+                    class="v-card__actions O0mkxYHBBU8YHs1t4Mqb card-services"
+                  >
+                    <a
+                      href="/applications/landing/e-services/1c719954-3463-4754-85e1-1b319b937b86"
+                      class="v-btn v-btn--router v-btn--text theme--light v-size--large secondary--text HC2X4qrMYfwM_w0672aq EQG9p4b7ThE86KX8a29f"
+                      id="rf_home_eServices_cardAction_1c719954-3463-4754-85e1-1b319b937b86"
+                      aria-label=""
+                      ><span class="v-btn__content">
+                        شرح الخدمة
+
+                        <i
+                          aria-hidden="true"
+                          class="v-icon notranslate mdi mdi-arrow-left theme--light z2w6OYphoF4xMS9um5wd mr-3 fa-solid fa-arrow-left"
+                          style="font-size: 16px"
+                        >
+                        </i>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-end pa-3 mt-10 explore-all">
+            <a
+              href="/applications/landing/e-services"
+              class="v-btn v-btn--router v-btn--text theme--light v-size--large I3jvSEWea4R84zdnZrCh"
+              id="rf_home_eServices_showMoreAction"
+            >
+              <span class="v-btn__content explore-all-span">
+                تصفح الخدمات
+
+                <i
+                  aria-hidden="true"
+                  class="v-icon notranslate mdi mdi-arrow-left theme--light secondary--text XcGz53RYE4RFl4mjLpoN fa-solid fa-arrow-left"
+                  style="font-size: 16px"
+                >
+                </i>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="asking" class="tIyMnouosoO7awXAINvc my-5">
+      <div class="container mx-auto sm:px-4 KngRT8AyZ8nqHxkvKLUR py-0 mb-10">
+        <div
+          class="BZDxCf1_8YYylvrXYYGg scrollAnimation scrollAnimation--right scrollAnimation--active"
+        >
+          <div class="_6zts2jgmYAdyzfGIYMg">
+            <h2 class="n9nF88DgxzcmJBogrhVd px-5 mb-10">كيف يمكننا مساعدتك</h2>
+            <a
+              href="/applications/landing/faqs"
+              class="v-btn v-btn--router v-btn--text theme--light v-size--large jCc5kEo5LmYt7H2Rk7DP mx-5"
+              id="rf_home_faqs_browseAllQuestionsBtn"
+              ><span class="v-btn__content">
+                تصفح جميع الاسئلة
+
+                <i
+                  aria-hidden="true"
+                  class="v-icon notranslate mdi mdi-arrow-left theme--light secondary--text Bve4XZpegI4emT96_BCT mr-4"
+                  style="font-size: 16px"
+                >
+                </i>
+              </span>
+            </a>
+          </div>
+        </div>
+        <div class="EHEzyNPpxdkbw3KdgoFM px-5">
+          <div
+            class="v-item-group theme--light v-expansion-panels v-expansion-panels--accordion v-expansion-panels--flat scrollAnimation scrollAnimation--left scrollAnimation--active"
+          >
+            <div
+              style="transition-property: all; transition-duration: 0.3s"
+              aria-expanded="false"
+              class="v-expansion-panel question1"
+            >
+              <button
+                onclick="first_btn"
+                type="button"
+                id="question_btn1"
+                class="v-expansion-panel-header accordionHeader"
+              >
+                ما الفرق بين تسجيل وكالة و اصدار وكالة الكترونية؟
+
+                <div class="v-expansion-panel-header__icon">
+                  <i
+                    aria-hidden="true"
+                    class="v-icon icon1 notranslate mdi mdi-chevron-down theme--light fa-solid fa-angle-down arrow-question"
+                  >
+                  </i>
+                </div>
+              </button>
+              <div class="answer_hiddenText">
+                <p>الأجابة هنا</p>
+              </div>
+            </div>
+            <div
+              style="transition-property: all; transition-duration: 0.3s"
+              aria-expanded="false"
+              class="v-expansion-panel question2"
+            >
+              <button
+                type="button"
+                id="question_btn2"
+                class="v-expansion-panel-header accordionHeader"
+              >
+                ما المقصود بصفة الموكل وصفة الوكيل ؟
+                <div class="v-expansion-panel-header__icon">
+                  <i
+                    aria-hidden="true"
+                    class="v-icon icon2 notranslate mdi mdi-chevron-down theme--light fa-solid fa-angle-down arrow-question"
+                  >
+                  </i>
+                </div>
+              </button>
+              <div class="answer_hiddenText">
+                <p>
+                  صفه الموكل: الشخص الذي سيصدر الوكالة عن نفسة أو عن شخص آخر
+                  بصفته وكيلاً.&nbsp;صفة الوكيل : الشخص الذي سيتم إصدار الوكالة
+                  له.
+                </p>
+              </div>
+            </div>
+            <div
+              style="transition-property: all; transition-duration: 0.3s"
+              aria-expanded="false"
+              class="v-expansion-panel question3"
+            >
+              <button
+                type="button"
+                id="question_btn3"
+                class="v-expansion-panel-header accordionHeader"
+              >
+                انا مطالب بسداد مبلغ صدر بموجب سند تنفيذي، فهل يتم السداد
+                بالطريقة القديمة ( الحضور للمحكمة ) ام بالطريقة الجديدة من خلال
+                نظام سداد ؟
+                <div class="v-expansion-panel-header__icon">
+                  <i
+                    aria-hidden="true"
+                    class="v-icon icon3 notranslate mdi mdi-chevron-down theme--light fa-solid fa-angle-down arrow-question"
+                  >
+                  </i>
+                </div>
+              </button>
+              <div class="answer_hiddenText">
+                <p>
+                  اذا وصلت رسالة على هاتفك الجوال برقم فاتورة سداد، فبامكانك
+                  سدادها دون الحاجة لمراجعة المحكمة، واذا كان الطلب قبل تطبيق
+                  النظام الجديد فعليك طلب اصدار فاتورة سداد.
+                </p>
+              </div>
+              <!---->
+            </div>
+            <div
+              style="transition-property: all; transition-duration: 0.3s"
+              aria-expanded="false"
+              class="v-expansion-panel question4"
+            >
+              <button
+                type="button"
+                id="question_btn4"
+                class="v-expansion-panel-header accordionHeader"
+              >
+                هل يلزم توثيق عقد الزواج في المحكمة؟
+                <div class="v-expansion-panel-header__icon">
+                  <i
+                    aria-hidden="true"
+                    class="v-icon icon4 notranslate mdi mdi-chevron-down theme--light fa-solid fa-angle-down arrow-question"
+                  >
+                  </i>
+                </div>
+              </button>
+              <div class="answer_hiddenText">
+                <p>التوثيق يتم بشكل إلكتروني بدون حضور المستفيد للمحكمة</p>
+              </div>
+              <!---->
+            </div>
+            <div
+              style="transition-property: all; transition-duration: 0.3s"
+              aria-expanded="false"
+              class="v-expansion-panel question5"
+            >
+              <button
+                type="button"
+                id="question_btn5"
+                class="v-expansion-panel-header accordionHeader"
+              >
+                ماهو الحساب البنكي الوسيط في عملية الإفراغ الإلكتروني ؟
+                <div class="v-expansion-panel-header__icon">
+                  <i
+                    aria-hidden="true"
+                    class="v-icon notranslate mdi mdi-chevron-down theme--light fa-solid fa-angle-down arrow-question"
+                  >
+                  </i>
+                </div>
+              </button>
+              <div class="answer_hiddenText">
+                <p>
+                  هو حساب يخص وزارة العدل ,ينشأ إلكترونيا ويربط مع عملية الإفراغ
+                  العقاري الإلكتروني ،ليقوم المشتري بتحويل المبلغ له مباشرة ,ثم
+                  تحويل المبلغ لحساب البائع ونقل ملكية العقار للمشتري إلكترونيآ,
+                  علما بأن لكل طلب حساب مرجعي واحد فقط.
+                </p>
+              </div>
+              <!---->
+            </div>
+            <div
+              style="transition-property: all; transition-duration: 0.3s"
+              aria-expanded="false"
+              class="v-expansion-panel question6"
+            >
+              <button
+                type="button"
+                id="question_btn6"
+                class="v-expansion-panel-header accordionHeader"
+              >
+                كيف اقدر اعترض على الحكم
+                <div class="v-expansion-panel-header__icon">
+                  <i
+                    aria-hidden="true"
+                    class="v-icon notranslate mdi mdi-chevron-down theme--light fa-solid fa-angle-down arrow-question"
+                  >
+                  </i>
+                </div>
+              </button>
+              <div class="answer_hiddenText">
+                <p>بامكانك تقديم طلب استئناف او التماس اعادة نظر</p>
+              </div>
+              <!---->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sliding">
+      <div class="cont swiper">
+        <div class="slide-cont">
+          <div class="head-line">
+            <h1>شركاء Hr-Line</h1>
+          </div>
+          <div class="wrapper swiper-wrapper">
+            <div class="card-all swiper-slide">
+              <div class="image-box">
+                <img src="./imgs/showImg/fullDev.jpg" alt="" />
+              </div>
+              <div class="profile-details">
+                <img src="./imgs/profile/profile1.jpg" alt="" />
+                <div class="name-job">
+                  <h3 class="name">اسم الشركة</h3>
+                  <h4 class="job">توجه الشركة</h4>
+                </div>
+              </div>
+            </div>
+            <div class="card-all swiper-slide">
+              <div class="image-box">
+                <img src="./imgs/showImg/photographer.jpg" alt="" />
+              </div>
+              <div class="profile-details">
+                <img src="imgs/profile/profile2.jpg" alt="" />
+                <div class="name-job">
+                  <h3 class="name">اسم الشركة</h3>
+                  <h4 class="job">توجه الشركة</h4>
+                </div>
+              </div>
+            </div>
+            <div class="card-all swiper-slide">
+              <div class="image-box">
+                <img src="./imgs/showImg/dataAna.jpg" alt="" />
+              </div>
+              <div class="profile-details">
+                <img src="./imgs/profile/profile3.jpg" alt="" />
+                <div class="name-job">
+                  <h3 class="name">اسم الشركة</h3>
+                  <h4 class="job">توجه الشركة</h4>
+                </div>
+              </div>
+            </div>
+            <div class="card-all swiper-slide">
+              <div class="image-box">
+                <img src="./imgs/showImg/appDev.jpg" alt="" />
+              </div>
+              <div class="profile-details">
+                <img src="imgs/profile/profile4.jpg" alt="" />
+                <div class="name-job">
+                  <h3 class="name">اسم الشركة</h3>
+                  <h4 class="job">توجه الشركة</h4>
+                </div>
+              </div>
+            </div>
+            <div class="card-all swiper-slide">
+              <div class="image-box">
+                <img src="./imgs/showImg/blogger.jpg" alt="" />
+              </div>
+              <div class="profile-details">
+                <img src="./imgs/profile/profile5.jpg" alt="" />
+                <div class="name-job">
+                  <h3 class="name">اسم الشركة</h3>
+                  <h4 class="job">توجه الشركة</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next swiper-navBtn"></div>
+        <div class="swiper-button-prev swiper-navBtn"></div>
+        <div class="swiper-pagination" style="height: 100px; top: 98%"></div>
+      </div>
+    </section>
+
+    <main style="margin: 100px 0; background-color: #f8fbfb">
+      <div class="num-parent">
+        <div class="head-line">
+          <h1>Hr-Line بالأرقام</h1>
+        </div>
+
+        <div class="amount">
+          <div class="child">
+            <i class="fa-solid fa-people-roof svg"></i>
+
+            <p class="number">84656</p>
+
+            <p class="lorem">عدد المشتركون في الموقع</p>
+          </div>
+
+          <div class="child">
+            <i class="fa-solid fa-server svg"></i>
+
+            <p class="number">56465</p>
+
+            <p class="lorem">عدد الخدمات اتي يقدمها الموقع</p>
+          </div>
+
+          <div class="child">
+            <i class="fa-solid fa-check-double svg"></i>
+
+            <p class="number">21345</p>
+
+            <p class="lorem">عدد الخدمات التي تم انجازها في HR-Line</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <section class="ASSJEROiQMRO28f6Vf4P my-10 overflow-hidden">
+      <div
+        class="m6nBbA8TwSs4AihIzMY1 scrollAnimation scrollAnimation--left scrollAnimation--active"
+      >
+        <h3 class="vImDgRJJquYhBVFPAtSF">مركز HR-Line للخدمات العدلية</h3>
+        <p class="O35e_IYIsNU_6_7VAbu2">
+          مراكز عدلية نموذجية ضمن برنامج التحول الوطني لتحسين تجربة المستفيدين
+          وخدمة قطاع الأعمال.
+        </p>
+        <div class="YcGLZ1yXdQU2ABLTdBCh">
+          <h4 class="Tu7v4h9rnMb4TRwE2XJ0">العنوان</h4>
+          <h4 class="JoNd2pcqGKg8TMwKUFiU">
+            الملقا, طريق أنس بن مالك الرياض 13524
+          </h4>
+        </div>
+        <div class="YcGLZ1yXdQU2ABLTdBCh">
+          <div class="Tu7v4h9rnMb4TRwE2XJ0">البريد الالكتروني</div>
+          <a
+            id="rf_home_contactUs_mail"
+            href="mailto:1950@moj.gov.sa"
+            class="JoNd2pcqGKg8TMwKUFiU"
+          >
+            1950@moj.gov.sa
+          </a>
+        </div>
+        <div class="YcGLZ1yXdQU2ABLTdBCh">
+          <h4 class="Tu7v4h9rnMb4TRwE2XJ0">الهاتف</h4>
+          <a
+            id="rf_home_contactUs_phone"
+            href="tel:1950"
+            class="JoNd2pcqGKg8TMwKUFiU"
+          >
+            1950
+          </a>
+        </div>
+      </div>
+      <div
+        class="UsveaJMt24SFDs6viUrS scrollAnimation scrollAnimation--right scrollAnimation--active"
+      >
+        <iframe
+          id="rf_home_contactUs_map"
+          frameborder="0"
+          allowfullscreen="allowfullscreen"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.590477942276!2d46.62232108455595!3d24.80947275340828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2ee5da9fc4a241%3A0x4e451c0ebfeeabb4!2z2YbYp9is2LIg2YTZhNiu2K_Zhdin2Kog2KfZhNi52K_ZhNmK2Kk!5e0!3m2!1sar!2sjo!4v1576586994515!5m2!1sar!2sjo"
+          class="h52efJi6fKY3yFWxTs7X"
+          style="border: 0px"
+        ></iframe>
+      </div>
+    </section>
+
+    <section class="zqg5orRMKrI6ZEaKy_Hc">
+      <div class="_TbqHXOLP8L2uEqZUqa_">
+        <h1 class="rmU_IT5nqX4Hqu5K2Nsh">تطبيق HR-Line</h1>
+        <p class="xfSWfk8wgCVXMFoZywig">
+          يمكنكم تحميل تطبيق HR-Line للأجهزة الذكية التي تعمل بنظامي أندرويد
+          وأيفون
+        </p>
+        <div class="HLaJvSfojwoW3PodeePo">
+          <a
+            id="rf_home_mobileApps_androidLink"
+            target="_blank"
+            href="https://play.google.com/store/apps/details?id=com.moj.najiz&amp;hl=ar&amp;gl=US"
+            rel="noopener"
+            class="CjIQEIbRq6MHZbf9jrTt"
+          >
+            <img
+              src="data:image/png;base64,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"
+          /></a>
+          <a
+            id="rf_home_mobileApps_iosLink"
+            target="_blank"
+            href="https://apps.apple.com/ca/app/najiz-%D9%86%D8%A7%D8%AC%D8%B2/id1524792474"
+            rel="noopener"
+            class="CjIQEIbRq6MHZbf9jrTt"
+            ><img
+              src="data:image/png;base64,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"
+          /></a>
+        </div>
+      </div>
+    </section>
+
+    <footer style="background-color: #faf9f4" class="footer justify-center">
+      <div class="footer__copy m-6">
+        <div class="footer__logoWrapper p-6">
+          <div class="footer__copyLogo">
+            <a href="https://www.moj.gov.sa/" class="footer__logoLink">
+              <img
+                alt=""
+                width="130"
+                class="header__logoImg header__visionLogo"
+                src="https://najizcdn.moj.gov.sa/n2/Images/vision2030.svg?v=32"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="footer__copyright">جميع الحقوق محفوظة © 2018</div>
+        <div class="footer__links mx-2">
+          <a
+            href="/applications/landing/terms-conditions"
+            class="footer__linksItem"
+            >الشروط والأحكام</a
+          >
+          <a
+            href="/applications/landing/privacy-policy"
+            class="footer__linksItem"
+            >سياسة الخصوصية</a
+          >
+          <a href="/about" class="footer__linksItem"> من نحن </a>
+        </div>
+      </div>
+
+      <div class="footer__contactBox m-6">
+        <a href="mailto:1950@moj.gov.sa" class="footer__contact">
+          <i class="fa-solid fa-envelope mx-3"></i>
+          mohamed@gmail.com
+        </a>
+        <a href="tel:1950" class="footer__contact">
+          <i class="fa-solid fa-phone mx-3"></i>
+          11111111
+        </a>
+        <a href="tel:1950" class="footer__contact">
+          <i class="fa-solid fa-receipt mx-3"></i>
+          ضريبة القيمة المضافة
+        </a>
+      </div>
+    </footer>
+
+    <div id="cx-sidebar-channel-selector" title="Live Support">
+      <div
+        class="cx-channel-selector-icon cx-icon"
+        data-icon="agent"
+        id="cx-sidebar-channel-head"
+      >
+        <svg
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xml:space="preserve"
+          viewBox="0 0 100 100"
+        >
+          <g class="cx-svg-icon-tone1">
+            <path
+              d="M91.6,41.4C90.6,19.3,72.3,1.6,50,1.6C27.7,1.6,9.4,19.3,8.4,41.4C3.6,42.3,0,46.5,0,51.6C0,57.3,4.7,62,10.4,62h2.1v-4.2h-2.1c-3.4,0-6.3-2.8-6.3-6.2s2.8-6.2,6.3-6.2c1.2,0,2.1-0.9,2.1-2.1C12.5,22.6,29.3,5.7,50,5.7c20.7,0,37.5,16.8,37.5,37.5c0,1.2,0.9,2.1,2.1,2.1c3.4,0,6.2,2.8,6.2,6.2s-2.8,6.2-6.2,6.2c-1.2,0-2.1,0.9-2.1,2.1c0,14.4-8.4,27.7-21.4,33.9l-1.9,0.9l1.8,3.8l1.9-0.9c13.9-6.6,23-20.5,23.7-35.7c4.8-1,8.4-5.2,8.4-10.2S96.4,42.3,91.6,41.4z"
+            ></path>
+            <path
+              d="M81.2,59.9V45.3v-2.1C81.2,26,67.2,12,50,12c-17.2,0-31.2,14-31.2,31.3v1.4v15.3c0,16.1,12.6,29.8,28.7,31.1c0.9,0.1,1.7,0.1,2.6,0.1C67.2,91.2,81.2,77.1,81.2,59.9z M50,16.2c14.9,0,27.1,12.1,27.1,27.1H62.5c-8.9,0-17.2-4.4-22.2-11.7c-0.8-1.1-2.6-1.1-3.4,0c-3.4,4.9-8.3,8.3-13.8,10.2C23.8,27.5,35.6,16.2,50,16.2z M50,87c-0.8,0-1.5,0-2.2-0.1c-13.9-1.1-24.8-13-24.8-27V46.2c6.1-1.7,11.6-5.2,15.6-10c5.9,7.1,14.7,11.2,24,11.2h14.6v12.5C77.1,74.8,64.9,87,50,87z"
+            ></path>
+          </g>
+        </svg>
+      </div>
+    </div>
+
+    <script>
+      $(document).ready(function () {
+        // $('.header__searchButton').click(function() {
+        //     $('.header_searchBox').toggleClass('header_searchBox--visible');
+        // });
+
+        $(".header__hamburger").click(function () {
+          $(".header__hamburger").toggleClass("header__hamburger--active");
+          $(".header").toggleClass("header--active");
+        });
+
+        $("#question_btn1").click(function () {
+          $(".icon1").toggleClass("question_arrow");
+          $(".answer_hiddenText").toggleClass("answer_show");
+          $(".question1").toggleClass("question-color");
+          $(".accordionHeader").toggleClass("accordionHeader_color");
+        });
+
+        $("#question_btn2").click(function () {
+          $(".icon2").toggleClass("question_arrow");
+          $(".answer_hiddenText").toggleClass("answer_show");
+          $(".question2").toggleClass("question-color");
+          $(".accordionHeader").toggleClass("accordionHeader_color");
+        });
+
+        $("#question_btn3").click(function () {
+          $(".icon3").toggleClass("question_arrow");
+          $(".answer_hiddenText").toggleClass("answer_show");
+          $(".question3").toggleClass("question-color");
+          $(".accordionHeader").toggleClass("accordionHeader_color");
+        });
+
+        $("#question_btn4").click(function () {
+          $(".icon4").toggleClass("question_arrow");
+          $(".answer_hiddenText").toggleClass("answer_show");
+          $(".question4").toggleClass("question-color");
+          $(".accordionHeader").toggleClass("accordionHeader_color");
+        });
+
+        $("#question_btn5").click(function () {
+          $(".icon5").toggleClass("question_arrow");
+          $(".answer_hiddenText").toggleClass("answer_show");
+          $(".question5").toggleClass("question-color");
+          $(".accordionHeader").toggleClass("accordionHeader_color");
+        });
+
+        $("#question_btn6").click(function () {
+          $(".icon6").toggleClass("question_arrow");
+          $(".answer_hiddenText").toggleClass("answer_show");
+          $(".question6").toggleClass("question-color");
+          $(".accordionHeader").toggleClass("accordionHeader_color");
+        });
+      });
+    </script>
+
+    <script src="./swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+
+    <meta name="application-name" content="HR-LINE" />
+    <meta
+      name="csrf-token"
+      content="ud9H7SbLeY1xQvrbb4RYTFRnEBEAQBHZladFet44"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700&amp;display=swap"
+      rel="stylesheet"
+    />
+
+    <title>HR-LINE - خدمات إنسانية</title>
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" href="moto-centers.css" />
+    <link
+      rel="preload"
+      as="style"
+      href="https://hr-line.com/build/assets/app.fd3a6d90.css"
+    />
+    <link
+      rel="modulepreload"
+      href="https://hr-line.com/build/assets/app.b2b97327.js"
+    />
+    <link
+      rel="stylesheet"
+      href="https://hr-line.com/build/assets/app.fd3a6d90.css"
+    />
+    <script
+      type="module"
+      src="https://hr-line.com/build/assets/app.b2b97327.js"
+    ></script>
+    <style>
+      .footer {
+        display: grid;
+        margin: 0 auto;
+        max-width: 100%;
+        padding: 10px 48px;
+        width: 100%;
+      }
+
+      .footer__contactBox {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+      }
+
+      .footer__copy {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      .footer__logo {
+        margin-left: 52px;
+        margin-right: 0;
+        height: 100%;
+        width: auto;
+      }
+
+      .footer__logoLink {
+        display: block;
+      }
+
+      .footer__contact {
+        line-height: 30px;
+        color: #a6b8bb;
+        font-size: 14px;
+        font-weight: 500;
+        margin-left: 32px;
+        white-space: nowrap;
+        direction: ltr;
+        display: block;
+        background-color: transparent;
+        outline: 0;
+        text-decoration: none;
+      }
+
+      html[dir="rtl"] .footer__contact--mail::before {
+        margin-left: 8px;
+        margin-right: 0;
+        float: right;
+        display: inline-block;
+        margin-top: -3px;
+      }
+
+      .footer__contact--mail::before {
+        display: inline-block;
+        font-size: 20px;
+        margin-right: 8px;
+        position: relative;
+        top: 4px;
+        content: "\E909" !important;
+        font-weight: 400;
+      }
+
+      .footer__contact--mail::before,
+      .footer__contact--phone::before,
+      .issue__successCircle::before {
+        text-transform: none;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        font-style: normal;
+        font-variant: normal;
+      }
+
+      .footer__contact {
+        color: #a6b8bb;
+        font-size: 14px;
+        font-weight: 500;
+        margin-left: 32px;
+        white-space: nowrap;
+        line-height: 30px;
+      }
+
+      .footer__contact--phone::before,
+      .issue__successCircle::before {
+        text-transform: none;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        font-style: normal;
+        font-variant: normal;
+      }
+
+      .footer__contact--phone::before {
+        display: inline-block;
+        font-size: 16px;
+        margin-right: 8px;
+        position: relative;
+        top: 2px;
+        content: "\E90F" !important;
+        font-weight: 400;
+      }
+
+      html[dir="rtl"] .footer__contact--phone::before {
+        margin-left: 8px;
+        margin-right: 0;
+      }
+
+      html[dir="rtl"] .footer__copy {
+        margin-left: 0;
+        /* margin-right: auto; */
+      }
+
+      .footer__links,
+      .footer__logoWrapper {
+        display: flex;
+      }
+
+      .footer__linksItem {
+        color: #a6b8bb;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 30px;
+        text-decoration: none;
+      }
+
+      .footer__linksItem {
+        font-weight: 500;
+        margin-left: 24px;
+        transition: color 0.3s;
+      }
+
+      html[dir="rtl"] .footer__linksItem {
+        margin-left: 0;
+        margin-right: 24px;
+      }
+
+      html[dir="rtl"] .footer__linksItem:first-of-type {
+        margin-right: 0;
+      }
+
+      .footer__copyright {
+        color: #02363d;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 30px;
+        margin-left: 20px;
+      }
+
+      html[dir="rtl"] .footer__copyright {
+        margin-left: 0;
+        margin-right: 20px;
+      }
+
+      html[dir="rtl"] .footer__copyLogo {
+        margin-left: 0;
+        margin-right: 32px;
+      }
+      .footer__copyLogo {
+        align-items: center;
+        display: flex;
+        height: 100%;
+        margin-left: 32px;
+        width: auto;
+      }
+
+      @media (max-width: 1024px) {
+        .faq--withBox .faq__container,
+        .faq__container,
+        .footer,
+        .topServices__container {
+          flex-direction: column;
+        }
+      }
+
+      @media (max-width: 1024px) {
+        .footer__contactBox {
+          margin-bottom: 16px;
+        }
+      }
+
+      @media (max-width: 1024px) {
+        .footer__copy {
+          flex-wrap: wrap;
+          margin: 0;
+        }
+      }
+
+      @media (max-width: 1024px) {
+        html[dir="rtl"] .footer__copy {
+          margin: 0;
+        }
+      }
+
+      @media (max-width: 1024px) {
+        .footer__logoWrapper {
+          flex-basis: 100%;
+          justify-content: center;
+          margin-top: 10px;
+        }
+      }
+
+      @media (max-width: 1024px) {
+        .footer__copyLogo:first-of-type,
+        html[dir="rtl"] .details__description,
+        html[dir="rtl"] .details__steps,
+        html[dir="rtl"] .header__lang {
+          margin-left: 0;
+        }
+      }
+
+      @media (max-width: 1024px) {
+        .details__description,
+        .details__steps,
+        .header__lang,
+        html[dir="rtl"] .footer__copyLogo:first-of-type {
+          margin-right: 0;
+        }
+      }
+
+      @media (max-width: 768px) {
+        .footer {
+          padding: 26px 24px;
+        }
+      }
+
+      @media (max-width: 570px) {
+        .footer__copy {
+          display: grid !important;
+        }
+
+        .footer__contactBox {
+          display: grid !important;
+        }
+
+        .footer__copyright {
+          margin-right: 0;
+          text-align: center;
+        }
+
+        .footer__contact {
+          margin-left: 0;
+        }
+      }
+    </style>
+  </head>
+
+  <body class="bg-gray-100">
+    <header id="menu_hamburger" class="header header--beige mb-5">
+      <div class="header__container">
+        <div class="header__logo">
+          <a href="/" class="header__logoLink">
+            <img
+              alt="najiz"
+              class="header__logoImg"
+              src="./imgs/Orange Business Logo.png"
+            />
+          </a>
+        </div>
+        <nav class="header__menuWrapper">
+          <div class="header__menu">
+            <a href="#apply" class="header__menuItem"> الخدمات الالكترونية </a>
+            <a href="#economy" class="header__menuItem">
+              خدمات الاعمال والتجارة
+            </a>
+            <a href="" class="header__menuItem"> دليل المرخصين </a>
+            <a href="#asking" class="header__menuItem"> الأسئلة المتكررة </a>
+            <a href="" class="header__menuItem items-center">
+              الدخول
+              <i class="fa-solid fa-lock"></i>
+            </a>
+
+            <nav role="navigation" class="primary-navigation">
+              <ul style="padding-left: 0">
+                <li>
+                  <a class="items-center lang-link" href="#"
+                    >اللغة
+                    <i
+                      style="width: 16px; height: 16px"
+                      class="fa-solid fa-globe"
+                    ></i>
+                  </a>
+                  <ul class="relative">
+                    <li class="d-grid items-end">
+                      <a class="m-6 block" href="" target="_blank">العربية</a>
+
+                      <a class="m-6 block" href="" target="_blank">English</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </nav>
+
+        <div class="header__right">
+          <div class="header__logo">
+            <a href="https://www.moj.gov.sa/" class="header__logoLink">
+              <!-- <img width="110" alt="" class="header__logoImg"
+                            src="https://najizcdn.moj.gov.sa/n2/Images/moj-logo.svg?v=32"> -->
+              <img
+                alt=""
+                width="130"
+                class="header__logoImg header__visionLogo"
+                src="https://najizcdn.moj.gov.sa/n2/Images/vision2030.svg?v=32"
+              />
+            </a>
+          </div>
+          <div
+            onclick="click_hamburger()"
+            id="div_spans"
+            class="header__hamburger"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="main" style="margin: 120px 0">
+      <div class="bg-green-900" style="background-color: #067377 !important">
+        <div class="mx-auto max-w-screen-xl px-4 md:px-6 py-12">
+          <h1 class="text-2xl text-white font-bold mb-4">خدمات إنسانية</h1>
+          <nav class="flex" aria-label="Breadcrumb">
+            <ol class="inline-flex items-center space-x-3 rtl:space-x-reverse">
+              <li class="inline-flex items-center">
+                <a
+                  href="#"
+                  class="inline-flex items-center text-sm font-medium text-white hover:text-gray-50"
+                >
+                  <svg
+                    class="w-4 mb-2 font-medium leading-tight text-xl mr-2 rtl:ml-2"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+                    ></path>
+                  </svg>
+                  الصفحة الرئيسية
+                </a>
+              </li>
+              <li aria-current="page">
+                <div class="flex items-center">
+                  <svg
+                    class="w-4 mb-2 font-medium leading-tight text-xl text-gray-50"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M9 5l7 7-7 7"
+                    ></path>
+                  </svg>
+                  <span class="mr-2 rtl:ml-2 text-sm font-medium text-gray-50"
+                    >خدمات إنسانية</span
+                  >
+                </div>
+              </li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+      <div class="mx-auto max-w-screen-xl px-4 md:px-6 my-12">
+        <div wire:id="5GrgVj9YcDQkqwoEv8iA">
+          <form method="GET">
+            <div class="p-6 bg-white rounded-xl border border-gray-300">
+              <div
+                class="grid grid-cols-1 filament-forms-component-container gap-6"
+              >
+                <div class="col-span-full">
+                  <div>
+                    <div
+                      class="grid grid-cols-1 lg:grid-cols-3 filament-forms-component-container gap-6"
+                    >
+                      <div
+                        class="col-span-1"
+                        wire:key="5GrgVj9YcDQkqwoEv8iA.officeName.Filament\Forms\Components\TextInput"
+                      >
+                        <div class="filament-forms-field-wrapper">
+                          <div class="space-y-2">
+                            <div
+                              class="flex items-center justify-between space-x-2 rtl:space-x-reverse"
+                            >
+                              <label
+                                class="filament-forms-field-wrapper-label inline-flex items-center space-x-3 rtl:space-x-reverse"
+                                for="officeName"
+                              >
+                                <span
+                                  class="text-sm font-medium leading-4 text-gray-700"
+                                >
+                                  اسم المكتب
+                                </span>
+                              </label>
+                            </div>
+
+                            <div
+                              class="filament-forms-text-input-component flex items-center space-x-2 rtl:space-x-reverse group"
+                            >
+                              <div class="flex-1">
+                                <input
+                                  x-data="{}"
+                                  wire:model="officeName"
+                                  type="text"
+                                  dusk="filament.forms.officeName"
+                                  id="officeName"
+                                  class="block w-full transition duration-75 rounded-lg shadow-sm focus:border-primary-500 focus:ring-1 focus:ring-inset focus:ring-primary-500 opacity-75:opacity-70 border-gray-300"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div
+                        class="col-span-1"
+                        wire:key="5GrgVj9YcDQkqwoEv8iA.professionId.Filament\Forms\Components\Select"
+                      >
+                        <div class="filament-forms-field-wrapper">
+                          <div class="space-y-2">
+                            <div
+                              class="flex items-center justify-between space-x-2 rtl:space-x-reverse"
+                            >
+                              <label
+                                class="filament-forms-field-wrapper-label inline-flex items-center space-x-3 rtl:space-x-reverse"
+                                for="professionId"
+                              >
+                                <span
+                                  class="text-sm font-medium leading-4 text-gray-700"
+                                >
+                                  مهنة
+                                </span>
+                              </label>
+                            </div>
+
+                            <div
+                              class="filament-forms-select-component flex items-center space-x-1 rtl:space-x-reverse group"
+                            >
+                              <div class="flex-1 min-w-0">
+                                <select
+                                  id="professionId"
+                                  class="text-gray-900 block w-full transition duration-75 rounded-lg shadow-sm focus:border-primary-500 focus:ring-1 focus:ring-inset focus:ring-primary-500 disabled:opacity-70 border-gray-300"
+                                >
+                                  <option value="">اختر</option>
+
+                                  <option value="1">محامي</option>
+                                  <option value="2">موثق</option>
+                                  <option value="3">محكم</option>
+                                  <option value="4">مأذون أنكحه</option>
+                                  <option value="5">باحث قانوني</option>
+                                  <option value="6">مصمم قانوني</option>
+                                  <option value="7">ناظر وقف</option>
+                                  <option value="8">مستشار قانوني</option>
+                                  <option value="10">سكرتير قانوني</option>
+                                  <option value="11">حارس قضائي</option>
+                                  <option value="12">مترجم معتمد</option>
+                                  <option value="13">ممثل نظامي</option>
+                                  <option value="14">محاسب قانوني</option>
+                                  <option value="15">مأمور تنفيذ</option>
+                                  <option value="16">وكيل شرعي</option>
+                                  <option value="17">شركة مهنيه</option>
+                                  <option value="18">مدرب قانوني</option>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div
+                        class="col-span-1"
+                        wire:key="5GrgVj9YcDQkqwoEv8iA.professionId.Filament\Forms\Components\Select"
+                      >
+                        <div class="filament-forms-field-wrapper">
+                          <div class="space-y-2">
+                            <div
+                              class="flex items-center justify-between space-x-2 rtl:space-x-reverse"
+                            >
+                              <label
+                                class="filament-forms-field-wrapper-label inline-flex items-center space-x-3 rtl:space-x-reverse"
+                                for="professionId"
+                              >
+                                <span
+                                  class="text-sm font-medium leading-4 text-gray-700"
+                                >
+                                  التخصص
+                                </span>
+                              </label>
+                            </div>
+
+                            <div
+                              class="filament-forms-select-component flex items-center space-x-1 rtl:space-x-reverse group"
+                            >
+                              <div class="flex-1 min-w-0">
+                                <select
+                                  id="professionId"
+                                  class="text-gray-900 block w-full transition duration-75 rounded-lg shadow-sm focus:border-primary-500 focus:ring-1 focus:ring-inset focus:ring-primary-500 disabled:opacity-70 border-gray-300"
+                                >
+                                  <option value="">اختر</option>
+
+                                  <option value="1">محامي</option>
+                                  <option value="2">موثق</option>
+                                  <option value="3">محكم</option>
+                                  <option value="4">مأذون أنكحه</option>
+                                  <option value="5">باحث قانوني</option>
+                                  <option value="6">مصمم قانوني</option>
+                                  <option value="7">ناظر وقف</option>
+                                  <option value="8">مستشار قانوني</option>
+                                  <option value="10">سكرتير قانوني</option>
+                                  <option value="11">حارس قضائي</option>
+                                  <option value="12">مترجم معتمد</option>
+                                  <option value="13">ممثل نظامي</option>
+                                  <option value="14">محاسب قانوني</option>
+                                  <option value="15">مأمور تنفيذ</option>
+                                  <option value="16">وكيل شرعي</option>
+                                  <option value="17">شركة مهنيه</option>
+                                  <option value="18">مدرب قانوني</option>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+          <div class="mt-8">
+            <p class="mb-4">
+              تم العثور على حوالي <span class="font-bold">2</span> المكاتب.
+            </p>
+
+            <div class="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3">
+              <a
+                href="./office.html"
+                target="_blank"
+                class="relative block border rounded-xl bg-white"
+              >
+                <div
+                  class="absolute top-0 left-0 rtl:right-0 p-6 flex justify-end"
+                >
+                  <span
+                    class="rounded-full p-1 px-4 font-semibold text-sm bg-green-700 text-green-100 animate-pulse"
+                  >
+                    متوفر
+                  </span>
+                </div>
+                <img
+                  class="object-cover w-full rounded-xl rounded-bl-none rounded-br-none aspect-square max-h-56"
+                  src="https://hr-line.com/storage/TG7eEpDLSW5wQhOwauq7pmsuDytGWf-meta2LTYudin2LEg2K7Yp9i1LmpwZw==-.jpg"
+                  alt="Office تهاني حسين حسين المذكور ."
+                />
+                <div class="p-6">
+                  <h1 class="text-xl font-bold text-blue-700 capitalize">
+                    Office تهاني حسين حسين المذكور .
+                  </h1>
+
+                  <p class="mt-2 text-gray-500 capitalize dark:text-gray-300">
+                    محامي
+                  </p>
+                </div>
+              </a>
+              <!-- Livewire Component wire-end:8VNBbjY9d54fM84Pa7jr -->
+              <a
+                wire:id="Nk0S9Q5wJHzS2ysNMHRE"
+                href="https://hr-line.com/services/%D8%AE%D8%AF%D9%85%D8%A7%D8%AA%20%D8%A5%D9%86%D8%B3%D8%A7%D9%86%D9%8A%D8%A9/%D8%A8%D8%A7%D8%AD%D8%AB-%D9%82%D8%A7%D9%86%D9%88%D9%86%D9%8A/3-Office-hatim"
+                class="relative block border rounded-xl bg-white"
+              >
+                <div
+                  class="absolute top-0 left-0 rtl:right-0 p-6 flex justify-end"
+                >
+                  <span
+                    class="rounded-full p-1 px-4 font-semibold text-sm bg-green-700 text-green-100 animate-pulse"
+                  >
+                    متوفر
+                  </span>
+                </div>
+                <img
+                  class="object-cover w-full rounded-xl rounded-bl-none rounded-br-none aspect-square max-h-56"
+                  src="https://hr-line.com/storage/0mWADqB91xrPTGunQlx66fYK8TX1ek-metaQm1jaSAoMSkuamZpZg==-.jpg"
+                  alt="Office hatim"
+                />
+                <div class="p-6">
+                  <h1 class="text-xl font-bold text-blue-700 capitalize">
+                    Office hatim
+                  </h1>
+
+                  <p class="mt-2 text-gray-500 capitalize dark:text-gray-300">
+                    باحث قانوني
+                  </p>
+                </div>
+              </a>
+              <!-- Livewire Component wire-end:Nk0S9Q5wJHzS2ysNMHRE -->
+            </div>
+          </div>
+        </div>
+        <!-- Livewire Component wire-end:5GrgVj9YcDQkqwoEv8iA -->
+      </div>
+    </div>
+
+    <footer style="background-color: #faf9f4" class="footer justify-center">
+      <div class="footer__copy m-6">
+        <div class="footer__logoWrapper p-6">
+          <div class="footer__copyLogo">
+            <a href="https://www.moj.gov.sa/" class="footer__logoLink">
+              <img
+                alt=""
+                width="130"
+                class="header__logoImg header__visionLogo"
+                src="https://najizcdn.moj.gov.sa/n2/Images/vision2030.svg?v=32"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="footer__copyright">جميع الحقوق محفوظة © 2018</div>
+        <div class="footer__links mx-2">
+          <a
+            href="/applications/landing/terms-conditions"
+            class="footer__linksItem"
+            >الشروط والأحكام</a
+          >
+          <a
+            href="/applications/landing/privacy-policy"
+            class="footer__linksItem"
+            >سياسة الخصوصية</a
+          >
+          <a href="/about" class="footer__linksItem"> من نحن </a>
+        </div>
+      </div>
+
+      <div class="footer__contactBox m-6">
+        <a href="mailto:1950@moj.gov.sa" class="footer__contact">
+          <i class="fa-solid fa-envelope mx-3"></i>
+          mohamed@gmail.com
+        </a>
+        <a href="tel:1950" class="footer__contact">
+          <i class="fa-solid fa-phone mx-3"></i>
+          11111111
+        </a>
+        <a href="tel:1950" class="footer__contact">
+          <i class="fa-solid fa-receipt mx-3"></i>
+          ضريبة القيمة المضافة
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
